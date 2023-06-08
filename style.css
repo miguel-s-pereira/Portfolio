@@ -57,6 +57,10 @@ li{
     padding-bottom: 0.25rem;
     position: relative;
 }
+.nav-link:hover{
+    font-weight: 600;
+    transition: 0.05s ease-in-out;
+}
 .nav-link::before{
     content: '';
     position: absolute;
@@ -130,6 +134,19 @@ li{
     justify-content: center;
     align-items: center;
     min-height: 90vh;
+}
+.languages{
+    font-family: CentraNo2-Light;
+    font-size: 1.1em;
+    margin-bottom: 2.5%;
+    letter-spacing: 5px;
+}
+.language{
+    font-weight: 500;
+}
+.language:hover{
+    font-weight: 600;
+    transition: 0.05s ease-in-out;
 }
 .title-content{
     display: flex;
